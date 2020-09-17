@@ -1,0 +1,13 @@
+#基于beego+xorm的golangWeb框架  
+1. golang下载地址https://studygolang.com/dl,版本：1.14,解压既可用  
+2. mac系统下配置环境变量，其他自行  
+export GOROOT=/Users/mac/go/go  
+export GO111MODULE=on #开启go mod  
+export GOARCH=amd64 # 目标可执行程序操作系统构架，包括 386，amd64，arm  
+export GOOS=darwin  #GOOS 目标可执行程序运行操作系统，支持 darwin，freebsd，linux，windows  
+export GOPATH=/Users/mac/gopath #设置gopath  
+export GOPROXY=https://goproxy.io #go代理，避免被各种墙  
+export PATH=$PATH:$GOROOT/bin  
+3. clone下来初始化的项目后执行go mod tidy (自动检测下载依赖包，有问题呢，大概率是被墙了，小概率是IDE的配置错误，看错误信息)  
+4. 安装https://gitee.com/jangozw/gofresh   就是本地热更新，使用方法看文档  
+5. Auther 395078304@qq.com
