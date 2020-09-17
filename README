@@ -10,4 +10,6 @@ export GOPROXY=https://goproxy.io #go代理，避免被各种墙
 export PATH=$PATH:$GOROOT/bin  
 3. clone下来初始化的项目后执行go mod tidy (自动检测下载依赖包，有问题呢，大概率是被墙了，小概率是IDE的配置错误，看错误信息)  
 4. 安装https://gitee.com/jangozw/gofresh   就是本地热更新，使用方法看文档  
-5. Auther 395078304@qq.com
+5. 数据库XORM地址 https://gitea.com/xorm/xorm
+6. Auther 395078304@qq.com
+7. 安装gofresh之后加入环境变量，然后在目录下直接执行gofresh 访问http://0.0.0.0:8989
