@@ -13,3 +13,4 @@ export PATH=$PATH:$GOROOT/bin
 5. 数据库XORM地址 https://gitea.com/xorm/xorm
 6. Auther 395078304@qq.com
 7. 安装gofresh之后加入环境变量，然后在目录下直接执行gofresh 访问http://0.0.0.0:8989
+8. 配置文件在app/conf
