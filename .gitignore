@@ -1,3 +1,6 @@
 beegoTool.iml
 .idea
 tmp
+/vendor
+index.html
+beegoTool

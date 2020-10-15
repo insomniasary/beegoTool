@@ -2,6 +2,7 @@ package routers
 
 import (
 	"beegoTool/controllers"
+	"beegoTool/controllers/webSocket"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/plugins/cors"
@@ -23,4 +24,5 @@ func init() {
 	// 容忍字符串和数字互转
 	extra.RegisterFuzzyDecoders()
 	beego.Router("/",&controllers.Index{},"*:GetIndex")
+	beego.Router("/ws",&webSocket.WebSocket{},"*:WS")
 }
